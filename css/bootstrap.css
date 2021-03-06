@@ -1538,7 +1538,7 @@ h6 .small,
 h6 small {
     font-weight: 400;
     line-height: 1;
-    color: #777
+    color: rgb(189, 189, 189);
 }
 
 .h1,
@@ -1841,8 +1841,9 @@ dd {
         white-space: nowrap
     }
     .dl-horizontal dd {
-        margin-left: 180px
+        margin-left: 180px;
     }
+
 }
 
 abbr[data-original-title],
@@ -2066,7 +2067,8 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    overflow: hidden;
 }
 
 .col-xs-1,
@@ -2301,7 +2303,7 @@ pre code {
     .col-sm-7,
     .col-sm-8,
     .col-sm-9 {
-        float: left
+        float: left;
     }
     .col-sm-12 {
         width: 100%
@@ -3193,6 +3195,11 @@ textarea.form-control {
 
 input[type=search] {
     -webkit-appearance: none
+}
+
+.col-sm-4 {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
